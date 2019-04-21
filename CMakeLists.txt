@@ -12,7 +12,7 @@ set(ROS_BUILD_TYPE Release)
 
 rosbuild_init()
 
-set(EXECUTABLE_OUTPUT_PATH bin)
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}bin)
 
 
 set(DSO_PATH $ENV{DSO_PATH})
